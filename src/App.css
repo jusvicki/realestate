@@ -1,0 +1,1143 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+a{
+  text-decoration: none;
+}
+
+.nav-item:hover{
+  background-color: #151E3D;
+  border-radius:0.6rem ;
+}
+
+.nav-link:hover{
+  color: white;
+}
+
+.proimages{
+  padding: 0.5rem 5rem 2rem 5rem;
+}
+
+ .socials{
+  padding-right:1rem;
+} 
+
+.allmedia{
+  font-size: 1.5rem;
+} 
+
+.fore {
+    font-size: 2.5rem;
+    line-height: 1.4;
+}
+
+.foreword {
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+.btn {
+    font-size: 1rem;
+ 
+}
+
+.teambackground::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 100, 0.5); 
+    z-index: 1;
+  }
+
+  .feedback{
+    z-index:2;
+  }
+  
+
+
+.names{
+  color:#EFBF04;
+
+}
+
+.cad::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 100, 0.5) ;
+  z-index: 1;
+  border-radius: 1rem;
+}
+
+.property{
+  position: absolute;
+  z-index: 2;
+  font-family: "Playfair Display", serif;
+
+  
+}
+
+.clients{
+  font-family: "Playfair Display", serif;
+}
+
+.serviceline{
+  border: 0.2rem solid #151E3D;
+
+}  
+
+.island{
+  font-family: "Lobster", sans-serif;
+  font-size: 2rem;
+  margin-bottom: -1rem;
+  margin-top: 2rem;
+}
+
+
+.service::after{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background-color: rgba(255, 255, 255, 0.8) ;
+z-index: 1;
+}
+
+.myservice{
+  z-index: 2;
+}
+.myproject{
+  z-index:2;
+}
+
+  nav{
+    background-color: rgb(245, 244, 244);
+  }
+
+  .background{
+    position:relative;
+  }
+
+ .content{
+     width:100%;
+    position:absolute;
+    background-position:left;
+    background-size:contain;
+    background: linear-gradient(to right,rgb(245, 244, 244) 30%,rgba(255, 255, 255, 0) 70%);
+    
+  }
+
+  
+.firstcontent > button{
+  background-color: #151E3D;
+  border: none;
+}
+
+.card1{
+  background-color: transparent;
+}
+
+@media screen and (max-width:479px){
+  .logo{
+    max-width: 4rem;
+    max-height: 4rem;
+  }
+
+  
+.content1{
+  position:absolute;
+  padding:7rem;
+  background: linear-gradient(to right,rgb(245, 244, 244) 20%,rgba(255, 255, 255, 0) 90%);
+  background-size: cover;
+  transform: scale(0.88); 
+  margin-top: 1.8rem;
+ }
+
+ .firstimage{
+  margin: -5rem;
+  clip-path:inset(0rem 5rem 7rem 0rem);
+
+ }
+
+
+.content{
+  position:absolute;
+  padding: 9rem;
+  background: linear-gradient(to right,rgb(245, 244, 244) 40%,rgba(255, 255, 255, 0) 90%);
+  background-size:cover;
+  transform: scale(1.1);
+  margin-top: 5.5rem;
+ }
+
+ .touchpage{
+  height:90dvh;
+ }
+
+
+  .content > h1{
+    font-size:2rem;
+  }
+
+  .firstcontent > h1{
+    font-size:1.6rem;
+   
+  }
+
+  .firstcontent > p{
+    font-size:1rem;
+  }
+  
+  .firstcontent > button{
+    padding: 2rem 2rem;     
+    font-size:1.2rem; 
+    background-color: #151E3D;
+  }  
+
+  .firstimage{
+    background-size: contain;
+  }
+
+   .cad{
+    width: 18rem;
+    height: 9.5rem;
+   border-radius: 1rem;
+   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.8);
+   }
+  
+  .foreword{
+    font-size:0.6rem;
+    font-weight: lighter;
+  
+  }
+  
+
+  .fore{font-weight:100;
+    padding-top:70px;
+    font-size:25px; } 
+
+    .mission{
+      min-height: 50vh;
+      margin-top: -9rem;
+    }
+
+
+     .seebutton{
+      margin-top:50px;
+    }
+
+    .pinnockpic{
+      width: 80%;
+      margin-top:2rem; 
+      justify-content: center;   
+      align-items: center;
+      padding-left: 3rem;
+    }
+    
+    .pinline{
+      padding-top: 4rem;
+    }
+    
+    .pinnock{
+      width: 200%;
+     font-size: 1rem;
+   padding-left: 5rem;
+ }
+
+    .line1, .line2{
+      width:25.5rem;
+    }
+    
+    .line1{
+      margin-bottom: 1rem;
+    }
+
+    
+    .mycard{
+       width:20rem;
+      height:8.5rem;
+    }
+    
+    .feed{
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+
+    .card-text{
+      font-size: 0.8rem;
+    }
+
+    .feedrow{
+      flex-direction: column;
+    }
+    
+    .clients{
+      font-size: 1.5rem;
+    }
+    
+    .people{
+      font-size: 0.6rem;
+    }
+
+    .names1{
+      margin-top: 2.2rem;
+    }
+    
+     .names2{
+      margin-top: 1rem;
+    }
+    
+    .touchimage{
+      height:200px;
+      width:150px;
+      margin-left:9px;
+      
+    }
+
+  .maintouch{
+    padding: 6rem 0rem 6rem 0rem ;
+
+  }
+    .touchword{
+      font-size: 0.8rem;
+    }
+  
+    .touch{
+      margin-left:13px;
+      line-height:1.4;
+    }
+
+    .touchtopic{
+      font-size:28px;
+      font-weight:300;
+    }
+
+    .aboutimage{
+      margin: -6rem;
+      clip-path:inset(0rem 5rem 10rem 0rem);
+      
+  }
+   
+     .aboutline{
+    border:0.2rem solid #151E3D;
+    width:20rem;  
+  }
+
+  .about{
+    margin-left: 0.4rem;
+  }
+
+  .charity1{
+    height: 16rem;
+    width: 80%;
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
+   }
+  
+  .charity2{
+    display: none;
+  }
+
+  
+  .caris{
+    padding: 2rem 3rem 2rem 3rem;
+  }
+  
+  .wordings{
+    position:absolute;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 0.9rem;
+  }
+
+  .props{
+    flex-direction: column;
+    padding-left: 3rem;
+  }
+
+  .pinnockcol{
+    flex-direction: column;
+  }
+
+  .property{
+    padding-left: 4rem;
+  }
+  
+.propertytitle{
+  font-size: 1.5rem;
+}
+
+.protitle{
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.ongoing{
+  font-size: 2rem;
+  font-family: "Lobster",san-serif;
+}
+
+.pro{
+  height: 23rem;
+}
+
+}
+
+@media screen and (min-width:768px ) and (max-width:1024px){ 
+  .firstcontent > h1{
+    font-size:2.5rem;
+  }
+  .firstcontent > p{
+    font-size:1.3rem;
+  }
+
+  .logo{
+    max-width: 4rem;
+    max-height: 4rem;
+  }
+
+  .props{
+    flex-direction: column;
+    padding-left: 11rem;
+  }
+
+  .wordservices{
+    padding-left: 7rem;
+    font-size: 3rem;
+  }
+.feedrow{
+  flex-direction: column;
+}
+
+    
+.mycard{
+  width:30rem;
+  height:12rem;
+}
+
+.card-text{
+  font-size: 1.2rem;
+}
+
+.touchpage{
+  height: 110vh;
+}
+
+.background{
+  padding: 20rem;
+  margin-top: -9rem;
+  margin-left: 21rem;
+transform: scale(1);
+
+  } 
+
+  .content{
+    position:absolute;
+    background: linear-gradient(to right,rgb(245, 244, 244) 30%,rgba(255, 255, 255, 0) 70%);
+    background-size:cover;
+    transform: scale(1);
+    padding: 5rem;
+   }
+
+   .about{
+    margin-left: 2rem;
+    margin-top:19.5rem;
+   }
+
+
+   .content1{
+    position:absolute;
+    padding: 8.5rem;
+    background: linear-gradient(to right,rgb(245, 244, 244) 40%,rgba(255, 255, 255, 0) 100%);
+    background-size: cover;
+    transform: scale(1.1); 
+   }
+
+  .cad{
+    width: 27rem;
+    height: 11rem;
+   border-radius: 1rem;
+   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.8);
+   }
+
+  .property{
+    font-size: 1.8rem;
+    padding-left: 3.4rem;
+    padding-top: 1.5rem;
+  } 
+
+  
+  .pinnockpic{
+    width: 80%;
+    margin-top:2rem; 
+    justify-content: center;   
+    align-items: center;
+    padding-left: 7rem;
+  }
+  
+  .pinline{
+    padding-top: 4rem;
+
+  }
+  
+  .pinnock{
+    width: 200%;
+   font-size: 1.9rem;
+ padding-left: 5rem;
+}
+
+    .seebutton{
+      margin-top:60px;
+    }
+   
+
+    .line1, .line2{
+      width:50rem;
+    }
+    
+    .line1{
+      margin-bottom: 2rem;
+    }
+    
+    .mycard{
+      width:29rem;
+      height:12rem;
+    }
+
+    .vision , .caris{
+      font-size: 1.5rem;
+    }
+
+    .myproject{
+      padding-right:10rem;
+    }
+    
+    .feed{
+      margin-top: 2rem;
+      margin-left: 2rem;
+    }
+    
+    .clients{
+      font-size: 2.8rem;
+    }
+    
+    .people{
+      font-size:1.3rem;
+    }
+ 
+    .names1{
+      margin-top: 3.5rem;
+    }
+    
+    .names2{
+      margin-top: 2rem;
+    }
+    
+    .names3{
+      margin-top: 0.3rem;
+    }
+    
+    .names4{
+      margin-top: 0.3rem;
+    } 
+    
+    .touchimage{
+      height:350px;
+      width:250px;
+
+    }
+
+    .touch{
+      line-height:2.2;
+    }
+
+    .touchtopic{
+      font-size:50px;
+      font-weight:300;
+    }
+
+    .maintouch{
+      padding: 6rem 4rem 6rem 0rem ;
+  
+    }
+
+  .aboutline{
+    border:0.3rem solid #151E3D;
+    width:55rem;    
+  }
+
+  .charity1{
+    height: 23rem;
+    width: 60%;
+  }
+  
+  .charity2{
+    height: 23rem;
+    width: 40%;
+  }
+
+  /* .chars{
+   margin-left: 2rem;
+    gap: 0.1rem;
+  } */
+  
+  .caris{
+    padding: 2rem 4rem 2rem 4rem;
+  }
+
+  .foreword{
+    font-size:1.3rem;
+    font-weight: lighter;
+  }
+  
+  
+  .fore{font-weight:100;
+    padding-top:120px;
+    font-size:50px; } 
+
+  .aboutpage{
+    height:280dvh;
+  }
+
+  .mission{
+    min-height: 60vh;
+  }
+
+
+  .propertytitle{
+   font-size: 1.5rem;
+  }
+
+  .wordings{
+    position:absolute;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 1.5rem;
+  }
+
+  .servicetext{
+    font-size: 1.5rem;
+  }
+
+  .protitle{
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  
+  .ongoing{
+    font-size:2rem;
+    font-family: "Lobster",san-serif;
+  
+  }
+
+  .pro{
+    height: 35rem;
+  }
+
+}
+
+
+@media screen and (min-width:480px) and (max-width:767px ) {
+
+
+  .touchpage{
+    height: 90dvh;
+  }
+
+  .content1{
+    position:absolute;
+    padding:10rem;
+    background: linear-gradient(to right,rgb(245, 244, 244) 20%,rgba(255, 255, 255, 0) 90%);
+    background-size: cover;
+    transform: scale(0.88); 
+    margin-top: 1.5rem;
+   }
+
+  
+   .firstimage{
+    margin: -5.4rem;
+    clip-path:inset(0rem 5rem 0rem 0rem);
+   }
+
+
+  .firstimage{
+    background-size:contain;
+    clip-path: inset(4rem 0rem 0rem 0rem);
+  }
+
+   .foreword{
+    font-size:1rem;
+    font-weight: lighter;
+  }
+
+  .fore{font-weight:100;
+    padding-top:120px;
+    font-size:2rem; } 
+
+    .seebutton{
+   margin-top:50px;
+    } 
+
+  .logo{
+    max-width: 4rem;
+    max-height: 4rem;
+  }
+
+  .feedrow{
+    display: flex;
+    flex-direction: column;
+  }
+
+.content{
+  position:absolute;
+  padding: 5rem; 
+  background: linear-gradient(to right,rgb(245, 244, 244) 60%,rgba(255, 255, 255, 0) 90%);
+  background-size: contain;
+  transform: scale(0.48);
+  margin-top: -6rem;
+  margin-left: -9.5rem;
+
+ }
+
+ .background{
+  padding: 20rem;
+  margin-top: -13rem;
+  margin-left: -2rem;
+transform: scale(0.6);
+
+  } 
+
+   .cad{
+    width: 22rem;
+    height: 10rem;
+   border-radius: 1rem;
+   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.8);
+   }
+  
+    .property{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+  } 
+
+
+    .pinnockpic{
+      width: 50%;
+      float:right;
+      margin-top: 6rem;
+    padding-left: -6rem;
+    }
+    
+    .pinline{
+      padding-top: 6rem;
+    }
+    
+    .pinnock{
+     width:90%;
+     font-size: 1rem;
+     padding-left: 0.5rem;
+     
+    }
+
+    .line1, .line2{
+      width:18rem;
+    }
+    
+    .line1{
+      margin-bottom: 1rem;
+    }
+
+    .mycard{
+      width:25rem;
+     height:9rem;
+     
+   }
+
+   .card-text{
+    line-height: 1.2;
+   }
+
+     .maintouch{
+    padding: 6rem 0rem 6rem 0rem;
+    } 
+    
+    .feed{
+      margin-top: 2rem;
+      margin-left: 1rem; 
+    }
+    
+    .clients{
+      font-size: 1.5rem;
+    }
+    
+    .people{
+      font-size: 1rem;
+    }
+
+    .names1{
+      margin-top: 3rem;
+    }
+    
+    .names2{
+      margin-top: 2rem;
+    }
+
+    .names3, .names4{
+      margin-top: 0.5rem;
+    }
+    
+   
+    .touchimage{
+      height:200px;
+      width:150px;
+      margin-left:10px;
+    }
+  
+    .touch{
+      margin-left:30px;
+      line-height:1.4;
+    }
+
+    .touchtopic{
+      font-size:25px;
+      font-weight:300;
+    }
+   .mission{
+  padding: 0rem 0rem 4rem 0rem;
+   }
+   .aboutline{
+    border:0.3rem solid #151E3D;
+    width:65rem;
+    
+ }
+
+ .about{
+  margin-top: 30.5rem;
+  font-size: 3rem;
+ }
+
+ .aboutimage{
+  margin-top: -5.8rem;
+ }
+
+  .charity1{
+    height: 23rem;
+    width: 100%;
+  }
+  
+  .charity2{
+   display:none;
+  }
+  
+  .caris{
+    padding: 2rem 3rem 2rem 3rem;
+  }
+
+  .wordings{
+    position:absolute;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 1.3rem;
+  } 
+
+  .protitle{
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  
+  .ongoing{
+    font-size:2rem;
+    font-family: "Lobster",san-serif;
+  
+  }
+
+  .pro{
+    height: 23rem;
+  }
+}
+
+
+
+@media screen and (min-width:1025px) {
+
+  .touchpage{
+    height:130dvh
+  }
+
+.foreword{
+  font-size:2rem;
+  font-weight: lighter;
+}
+
+
+.fore{font-weight:100;
+  padding-top:120px;
+  font-size:70px; } 
+
+  .seebutton{
+    margin-top: 60px;
+    font-size: 1.5rem;
+  }
+
+  .mission{
+    padding-bottom: 9rem;
+  }
+
+
+.logo{
+  max-width: 8rem;
+  max-height: 7rem;
+ margin-left: 5rem;
+}
+
+.vision{
+  margin: 0rem 8rem 3rem 8rem;
+  text-align: center;
+}
+
+.content1{
+  position:absolute;
+  padding: 5rem;
+  background: linear-gradient(to right,rgb(245, 244, 244) 60%,rgba(255, 255, 255, 0) 100%);
+  background-size: cover;
+  transform: scale(1.1); 
+ }
+
+ .card-text{
+  font-size: 1.1rem;
+ 
+ }
+
+
+ .content{
+  position:absolute;
+  padding: 10.3rem;
+  background: linear-gradient(to right,rgb(245, 244, 244) 40%,rgba(255, 255, 255, 0) 90%);
+  background-size:cover;
+  transform: scale(1);
+}
+
+.vision , .caris{
+  font-size: 1.5rem;
+}
+
+  .content > h1{
+    font-size:2rem;
+  }
+
+  .firstcontent > h1{
+    font-size:4rem;
+   
+  }
+
+  .firstcontent > p{
+    font-size:2.3rem;
+  }
+  
+  .firstcontent > button{
+    padding: 3rem 2rem;     
+    font-size: 1.3rem; 
+    background-color: #151E3D;
+  }  
+
+  .firstimage{
+    background-size: fit;
+  }
+
+ 
+
+.mycard{
+  width:16rem;
+  height:22rem;
+ padding-top: 0.5rem; 
+ 
+}
+ 
+.feedback{
+  margin-top: 1rem;
+padding: 5rem;
+} 
+
+.clients{
+  font-size: 3.7rem;
+}
+
+.people{
+  font-size: 1.5rem;
+}
+
+.cad{
+  width: 20rem;
+  height: 24rem;
+ border-radius: 1rem;
+ box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.8);
+}
+
+
+.charity1{
+  height: 27rem;
+  width: 65%;
+}
+
+.charity2{
+  height: 27rem;
+  width: 33%;
+}
+
+.caris{
+  padding: 2rem 5rem 2rem 5rem;
+}
+
+.pinnockpic{
+  width: 45%;
+  float:right;
+  margin-left: 35rem;
+  margin-top: -23rem;
+
+}
+
+.pinline{
+  padding-top: 10rem;
+}
+
+.pinnock{
+ width: 60%;
+ padding-left:4rem ;
+ 
+}
+
+.line1{
+  margin-bottom: 5rem;
+}
+
+.names1{
+  margin-top: 9rem;
+}
+
+.names2{
+  margin-top: 7.3rem;
+}
+
+.names3{
+  margin-top: 3.9rem;
+}
+
+.names4{
+  margin-top: 3.9rem;
+}
+
+.pro{
+  height: 50rem;
+}
+
+.charit{
+clip-path: inset(12rem 0rem 0rem 0rem);
+}
+
+
+  .line1, .line2{
+    width:40rem;
+  }
+
+  .touchimage{
+    height:500px;
+    width:400px;
+    
+  }
+
+  .touch{
+    margin-left:70px;
+    line-height:2.2;
+  }
+
+  .touchword{
+    font-size: 1.5rem;
+  }
+
+  .touchtopic{
+    font-size:80px;
+    font-weight:300;
+  }
+
+  .maintouch{
+    padding:10rem 0rem 10rem 0rem;
+  }
+
+  .aboutline{
+    border:0.3rem solid #151E3D;
+    width:88rem;
+    margin-left:-6rem;
+  }
+
+  .about{
+    margin-top: 9.5rem;
+    font-size: 2rem;
+  }
+
+  .servicetitle{
+    color: #151E3D;
+  }
+
+   .serviceline{
+    border: 0.2rem solid #151E3D;
+  
+  }  
+
+  .myimages{
+   height: 55rem;
+  } 
+
+.property{
+    padding-top: 7rem;
+    font-size: 1.8rem;
+    padding-left: 0.9rem;
+  } 
+
+
+  .props{
+    padding-top: 4rem;
+  }
+
+   
+  .wordings{
+    position:absolute;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 1.2rem;
+  } 
+
+.propertytitle{
+  font-size: 2rem;
+}
+ .servicetext{
+    padding: 2rem 0.6rem 3rem 0.6rem;
+    font-size: 1.5rem;
+  } 
+
+  .protitle{
+    font-size: 4rem;
+    font-weight: 800;
+  }
+  
+  .ongoing{
+    font-size: 2rem;
+    font-family: "Lobster",san-serif;
+  
+  }
+}
+ 
