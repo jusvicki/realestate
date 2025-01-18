@@ -19,10 +19,10 @@ const Vision = () => {
      gave him the ample experience where he developed his expertise as a developer. He founded Foresight
     Reality partner Limited in 2008.
  </p>
- <p>
+<p>
      He successfully grew Foresight Reality Partners into a leading real estate development and investment
         company. Delivering multiple projects on time and within budget, resulting in high returns on investment.
-       He $apos; s forged a strong relationship with investors, partners, and stakeholders A passionate entrepreneur with
+       He&apos;s forged a strong relationship with investors, partners, and stakeholders A passionate entrepreneur with
        over 20 years of experience in starting and running businesses in the South West of Nigeria, UK, U.S.A,
      Kenya, and Uganda.
  </p>

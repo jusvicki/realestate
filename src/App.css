@@ -4,13 +4,19 @@
    
 }
 
-a{
+body {
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.property{
   text-decoration: none;
+
 }
 
 .nav-item:hover{
   background-color: #151E3D;
-  border-radius:0.6rem ;
+  border-radius:0.6rem;
 }
 
 .nav-link:hover{
@@ -22,7 +28,7 @@ a{
 }
 
  .socials{
-  padding-right:1rem;
+  padding-right:0.1rem;
 } 
 
 .allmedia{
@@ -38,11 +44,11 @@ a{
     font-size: 1.125rem;
     line-height: 1.6;
 }
-
-.btn {
-    font-size: 1rem;
+/* 
+ .btn {
+  transition: background-color 0.3s ease;
  
-}
+}  */
 
 .teambackground::after{
     content: '';
@@ -59,8 +65,6 @@ a{
     z-index:2;
   }
   
-
-
 .names{
   color:#EFBF04;
 
@@ -102,7 +106,6 @@ a{
   margin-top: 2rem;
 }
 
-
 .service::after{
 content: '';
 position: absolute;
@@ -112,11 +115,11 @@ bottom: 0;
 right: 0;
 background-color: rgba(255, 255, 255, 0.8) ;
 z-index: 1;
-}
+} 
 
-.myservice{
+ .myservice{
   z-index: 2;
-}
+} 
 .myproject{
   z-index:2;
 }
@@ -125,6 +128,7 @@ z-index: 1;
     background-color: rgb(245, 244, 244);
   }
 
+  
   .background{
     position:relative;
   }
@@ -154,6 +158,18 @@ z-index: 1;
     max-height: 4rem;
   }
 
+  
+  .nav-item:hover{
+    background-color: #151E3D;
+    border-radius:0.6rem;
+  }
+  
+  .nav-link:hover{
+    color: white;
+  }
+  .pinnockbeach{
+    font-size: 2rem;
+  }
   
 .content1{
   position:absolute;
@@ -213,6 +229,7 @@ z-index: 1;
     height: 9.5rem;
    border-radius: 1rem;
    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.8);
+   margin-bottom: 3rem;
    }
   
   .foreword{
@@ -220,9 +237,8 @@ z-index: 1;
     font-weight: lighter;
   
   }
-  
 
-  .fore{font-weight:100;
+.fore{font-weight:100;
     padding-top:70px;
     font-size:25px; } 
 
@@ -249,9 +265,9 @@ z-index: 1;
     }
     
     .pinnock{
-      width: 200%;
+      width: 100%;
      font-size: 1rem;
-   padding-left: 5rem;
+  padding-left: 1rem;
  }
 
     .line1, .line2{
@@ -364,7 +380,7 @@ z-index: 1;
 
   .props{
     flex-direction: column;
-    padding-left: 3rem;
+ 
   }
 
   .pinnockcol{
@@ -393,16 +409,27 @@ z-index: 1;
   height: 23rem;
 }
 
+.myproject1{
+  height:30dvh;
+}
+
+
+
 }
 
 @media screen and (min-width:768px ) and (max-width:1024px){ 
   .firstcontent > h1{
-    font-size:2.5rem;
+    font-size:2.2rem;
+   
   }
   .firstcontent > p{
     font-size:1.3rem;
   }
 
+  .pinrow{
+    margin-top: 8rem;
+  }
+ 
   .logo{
     max-width: 4rem;
     max-height: 4rem;
@@ -410,22 +437,20 @@ z-index: 1;
 
   .props{
     flex-direction: column;
-    padding-left: 11rem;
   }
 
-  .wordservices{
-    padding-left: 7rem;
-    font-size: 3rem;
-  }
 .feedrow{
   flex-direction: column;
 }
 
+.pinnockbeach{
+  font-size: 1.5rem;
+}
     
-.mycard{
+ .mycard{
   width:30rem;
   height:12rem;
-}
+} 
 
 .card-text{
   font-size: 1.2rem;
@@ -443,6 +468,7 @@ transform: scale(1);
 
   } 
 
+
   .content{
     position:absolute;
     background: linear-gradient(to right,rgb(245, 244, 244) 30%,rgba(255, 255, 255, 0) 70%);
@@ -457,10 +483,11 @@ transform: scale(1);
    }
 
 
+
    .content1{
     position:absolute;
     padding: 8.5rem;
-    background: linear-gradient(to right,rgb(245, 244, 244) 40%,rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right,rgb(245, 244, 244) 30%,rgba(255, 255, 255, 0) 80%);
     background-size: cover;
     transform: scale(1.1); 
    }
@@ -470,6 +497,7 @@ transform: scale(1);
     height: 11rem;
    border-radius: 1rem;
    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.8);
+   margin-bottom: 3rem;
    }
 
   .property{
@@ -480,11 +508,14 @@ transform: scale(1);
 
   
   .pinnockpic{
-    width: 80%;
-    margin-top:2rem; 
-    justify-content: center;   
-    align-items: center;
-    padding-left: 7rem;
+    width:100%;
+    margin-top:3rem; 
+    margin-left: -3rem;
+   
+  }
+
+  .myproject1{
+    height:80vh;
   }
   
   .pinline{
@@ -492,38 +523,29 @@ transform: scale(1);
 
   }
   
-  .pinnock{
-    width: 200%;
-   font-size: 1.9rem;
- padding-left: 5rem;
-}
+   .pinnock{
+    width:60%;
+    font-size: 1rem;
+    margin-left: 3rem;
+   } 
 
     .seebutton{
       margin-top:60px;
     }
-   
-
+    
     .line1, .line2{
-      width:50rem;
+      width:30rem;
     }
     
     .line1{
       margin-bottom: 2rem;
     }
     
-    .mycard{
-      width:29rem;
-      height:12rem;
-    }
 
     .vision , .caris{
       font-size: 1.5rem;
     }
 
-    .myproject{
-      padding-right:10rem;
-    }
-    
     .feed{
       margin-top: 2rem;
       margin-left: 2rem;
@@ -536,7 +558,6 @@ transform: scale(1);
     .people{
       font-size:1.3rem;
     }
- 
     .names1{
       margin-top: 3.5rem;
     }
@@ -552,6 +573,12 @@ transform: scale(1);
     .names4{
       margin-top: 0.3rem;
     } 
+
+    .pinnockbeach{
+      font-size: 3rem;
+      font-weight: 400;
+    }
+    
     
     .touchimage{
       height:350px;
@@ -587,11 +614,6 @@ transform: scale(1);
     height: 23rem;
     width: 40%;
   }
-
-  /* .chars{
-   margin-left: 2rem;
-    gap: 0.1rem;
-  } */
   
   .caris{
     padding: 2rem 4rem 2rem 4rem;
@@ -612,9 +634,8 @@ transform: scale(1);
   }
 
   .mission{
-    min-height: 60vh;
+    padding-bottom: 15rem;
   }
-
 
   .propertytitle{
    font-size: 1.5rem;
@@ -630,6 +651,9 @@ transform: scale(1);
 
   .servicetext{
     font-size: 1.5rem;
+  }
+  .pinnockcol{
+    flex-direction: column;
   }
 
   .protitle{
@@ -647,7 +671,7 @@ transform: scale(1);
     height: 35rem;
   }
 
-}
+} 
 
 
 @media screen and (min-width:480px) and (max-width:767px ) {
@@ -671,6 +695,10 @@ transform: scale(1);
     margin: -5.4rem;
     clip-path:inset(0rem 5rem 0rem 0rem);
    }
+
+   .pinnockbeach{
+    font-size: 2rem;
+  }
 
 
   .firstimage{
@@ -725,6 +753,7 @@ transform: scale(0.6);
     height: 10rem;
    border-radius: 1rem;
    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.8);
+   margin-bottom: 2rem;
    }
   
     .property{
@@ -735,10 +764,10 @@ transform: scale(0.6);
 
 
     .pinnockpic{
-      width: 50%;
-      float:right;
+      width: 60%;
       margin-top: 6rem;
-    padding-left: -6rem;
+      margin-left: 5rem;
+    
     }
     
     .pinline{
@@ -746,25 +775,25 @@ transform: scale(0.6);
     }
     
     .pinnock{
-     width:90%;
+     width:150%;
      font-size: 1rem;
-     padding-left: 0.5rem;
+     padding-left: 2rem;
      
     }
 
     .line1, .line2{
-      width:18rem;
+      width:30rem;
     }
     
     .line1{
       margin-bottom: 1rem;
     }
-
+ 
     .mycard{
-      width:25rem;
-     height:9rem;
+      width:14rem;
+     height:16rem;
      
-   }
+   } 
 
    .card-text{
     line-height: 1.2;
@@ -776,7 +805,6 @@ transform: scale(0.6);
     
     .feed{
       margin-top: 2rem;
-      margin-left: 1rem; 
     }
     
     .clients{
@@ -788,18 +816,20 @@ transform: scale(0.6);
     }
 
     .names1{
-      margin-top: 3rem;
+      margin-top: 5rem;
     }
     
     .names2{
-      margin-top: 2rem;
+      margin-top: 4rem;
     }
 
-    .names3, .names4{
-      margin-top: 0.5rem;
+    .names3{
+      margin-top: 2.5rem;
     }
-    
-   
+    .names4{
+      margin-top: 1.4rem;
+    }
+
     .touchimage{
       height:200px;
       width:150px;
@@ -872,29 +902,35 @@ transform: scale(0.6);
 
 
 
+
 @media screen and (min-width:1025px) {
 
-  .touchpage{
+   .touchpage{
     height:130dvh
-  }
+  } 
 
-.foreword{
-  font-size:2rem;
+ .foreword{
+  font-size:1.8rem;
   font-weight: lighter;
-}
+} 
 
+.mission{
+  padding-bottom: 15rem;
+}
 
 .fore{font-weight:100;
   padding-top:120px;
   font-size:70px; } 
 
+  .pinnockbeach{
+    font-size: 2.5rem;
+  }
+
+
   .seebutton{
     margin-top: 60px;
     font-size: 1.5rem;
-  }
-
-  .mission{
-    padding-bottom: 9rem;
+  
   }
 
 
@@ -955,21 +991,19 @@ transform: scale(0.6);
   }  
 
   .firstimage{
-    background-size: fit;
+        background-size: fit;
   }
 
- 
+ .mycard{
+  width:14.3rem;
+  height:24rem;
+ padding-top: 0.5rem;
+} 
 
-.mycard{
-  width:16rem;
-  height:22rem;
- padding-top: 0.5rem; 
- 
-}
- 
+
 .feedback{
   margin-top: 1rem;
-padding: 5rem;
+padding: 3rem;
 } 
 
 .clients{
@@ -980,12 +1014,12 @@ padding: 5rem;
   font-size: 1.5rem;
 }
 
-.cad{
+ .cad{
   width: 20rem;
   height: 24rem;
  border-radius: 1rem;
  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.8);
-}
+} 
 
 
 .charity1{
@@ -1003,10 +1037,8 @@ padding: 5rem;
 }
 
 .pinnockpic{
-  width: 45%;
-  float:right;
-  margin-left: 35rem;
-  margin-top: -23rem;
+  width: 80%;
+  margin-top:8rem;
 
 }
 
@@ -1014,31 +1046,31 @@ padding: 5rem;
   padding-top: 10rem;
 }
 
-.pinnock{
+/* .pinnock{
  width: 60%;
- padding-left:4rem ;
+  padding-left:2rem ; 
  
-}
+}  */
 
 .line1{
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
-.names1{
+ .names1{
   margin-top: 9rem;
 }
 
 .names2{
-  margin-top: 7.3rem;
+  margin-top: 5.7rem;
 }
 
 .names3{
-  margin-top: 3.9rem;
+  margin-top: 4rem;
 }
 
 .names4{
-  margin-top: 3.9rem;
-}
+  margin-top: 2.5rem;
+} 
 
 .pro{
   height: 50rem;
@@ -1050,7 +1082,7 @@ clip-path: inset(12rem 0rem 0rem 0rem);
 
 
   .line1, .line2{
-    width:40rem;
+    width:55rem;
   }
 
   .touchimage{
@@ -1074,7 +1106,7 @@ clip-path: inset(12rem 0rem 0rem 0rem);
   }
 
   .maintouch{
-    padding:10rem 0rem 10rem 0rem;
+    padding:10rem 0rem 6rem 0rem;
   }
 
   .aboutline{
@@ -1139,5 +1171,5 @@ clip-path: inset(12rem 0rem 0rem 0rem);
     font-family: "Lobster",san-serif;
   
   }
-}
- 
+} 
+  

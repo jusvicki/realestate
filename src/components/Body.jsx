@@ -24,7 +24,7 @@ const Body = () => {
             Hello,I'm <br/>Bolaji Aderibigbe
          </h1>
         <p>I am a seasoned Real Estate <br />Developer + Realtor</p>
-<button  onClick={handleClick} className="btn d-flex rounded-pill p-2 mt-4 text-white ">View My Portfolio</button>
+<button  onClick={handleClick} className=" rounded-pill p-2 mt-4 text-white">View My Portfolio</button>
     </div>
     </div > 
      );
