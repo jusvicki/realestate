@@ -11,10 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Default route */}
-        <Route index element={<Home />} />
-        
-        {/* Named routes */}
+        <Route path="/" element={<Home />} />
         <Route path="/mainservice" element={<Mainservice />} />
         <Route path="/mainpro" element={<Mainpro />} />
         <Route path="/about" element={<About />} />

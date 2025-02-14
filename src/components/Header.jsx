@@ -1,5 +1,5 @@
 import logo from '../assets/Modern Monogram FA Logo - 1.png';
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav ms-auto mb-2 mx-5 gap-3 mb-lg-0 ">
+      <ul className="navbar-nav ms-auto mb-2 mx-5 gap-3">
         <li className="nav-item">
           <Link to='/' className="nav-link">Home</Link>
         </li>
@@ -34,7 +34,7 @@ const Header = () => {
       </div>
   </nav>
 </section>
-<Outlet/>
+
 </>
 );
 }

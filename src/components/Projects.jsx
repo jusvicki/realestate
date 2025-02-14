@@ -10,16 +10,18 @@ const Projects = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
+       
     };
 
     return (
+        <>
         <div id='projects' className='service myproject1' style={backGround}>
             <div className='myproject justify-content-center' style={{ position: 'absolute', width: '100%' }}>
                 <h1
                     className='wordservices text-center'
                     style={{
                         textShadow: '2px 2px 5px rgba(0, 0, 0, 0.7)',
-                        fontSize: '4vw', // Responsive text size
+                        fontSize: '3rem', // Responsive text size
                     }}
                 >
                     Projects
@@ -29,14 +31,10 @@ const Projects = () => {
                         <div className='pinline'>
                             <div className='line1' style={{ border: '0.2rem solid #151E3D' }}></div>
                             <div className='pinnock'>
-                                <p className='pinnockbeach'>PINNOCK</p>
-                                <span>
-                                    <p className='pinnockbeach'>BEACH</p>
+                                <p className='pinnockbeach'>PINNOCK BEACH</p>
                                     <p >
-                                    A well-planned housing project built by Foresight reality partners at
+                                    A well-planned housing project built by Foresight reality partners at, PINNOCK BEACH ESTATE,LEKKI.
                                     </p>
-                                    <p >PINNOCK BEACH ESTATE,LEKKI.</p>
-                                </span>
                             </div>
                             <div className='line2' style={{ border: '0.2rem solid #151E3D' }}></div>
                         </div>
@@ -47,6 +45,7 @@ const Projects = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

@@ -12,16 +12,17 @@ const About = () => {
         height:'33rem',
         maxWidth:'100rem',
         backgroundRepeat:'no-repeat',
+  
        }
     return ( <>
         <Header />
     <div id='about' className='container-fluid aboutpage' >
-    <div style={myStyle} className='img-fluid aboutimage'>
+     <div style={myStyle} className='img-fluid aboutimage'>
        <div className='content'>
         <h1 className='about' style={{color:'#151E3D'}}>About</h1>
         <div className='serviceline aboutline'></div>
         </div>
-       </div>
+       </div> 
          <Vision />
          </div>
          </>

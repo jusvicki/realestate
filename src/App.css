@@ -1,11 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-   
+    box-sizing: border-box;
 }
 
-body {
-  -webkit-text-size-adjust: 100%;
+html, body {
+  /* -webkit-text-size-adjust: 100%; */
+    overflow-x: hidden;
+
+}
+
+.seebutton{
+  color: #151E3D;
 }
 
 
@@ -31,11 +37,8 @@ body {
   padding-right:0.1rem;
 } 
 
-.allmedia{
-  font-size: 1.5rem;
-} 
 
-.fore {
+/* .fore {
     font-size: 2.5rem;
     line-height: 1.4;
 }
@@ -43,7 +46,7 @@ body {
 .foreword {
     font-size: 1.125rem;
     line-height: 1.6;
-}
+} */
 /* 
  .btn {
   transition: background-color 0.3s ease;
@@ -158,7 +161,6 @@ z-index: 1;
     max-height: 4rem;
   }
 
-  
   .nav-item:hover{
     background-color: #151E3D;
     border-radius:0.6rem;
@@ -170,34 +172,76 @@ z-index: 1;
   .pinnockbeach{
     font-size: 2rem;
   }
-  
+/*   
 .content1{
   position:absolute;
   padding:7rem;
   background: linear-gradient(to right,rgb(245, 244, 244) 20%,rgba(255, 255, 255, 0) 90%);
   background-size: cover;
   transform: scale(0.88); 
-  margin-top: 1.8rem;
+  margin-top: 1.9rem;
+ } */
+
+
+
+
+   
+.content1{
+  position:absolute;
+  padding:6.2rem; 
+  background: linear-gradient(to right,rgb(245, 244, 244) 20%,rgba(255, 255, 255, 0) 90%);
+  background-size: cover;
+  transform: scale(1.4); 
+   margin: -3rem;
+
  }
+
+
+  
+
+
+
+.vision{
+ margin-top:7rem; 
+  /* height: 35px; */
+}
 
  .firstimage{
-  margin: -5rem;
+  margin: -4rem; 
+  transform: scale(0.82);
   clip-path:inset(0rem 5rem 7rem 0rem);
-
- }
+  background-size:cover;
+  margin-right: -13rem;
+ 
+}
 
 
 .content{
   position:absolute;
-  padding: 9rem;
+  padding: 11rem;
   background: linear-gradient(to right,rgb(245, 244, 244) 40%,rgba(255, 255, 255, 0) 90%);
   background-size:cover;
-  transform: scale(1.1);
-  margin-top: 5.5rem;
- }
+  transform: scale(0.85);
+ margin-left: 4rem;
+ margin: -1.5rem;
+}
+
+
+   
+
+ .aboutimage{
+  margin: -15.3rem; 
+  transform: scale(1) ;
+  clip-path:inset(0rem 5rem 10rem 0rem);
+   background-size:cover;
+   margin-right: -6rem;
+   margin-top: -1.5rem; 
+}
+
+
 
  .touchpage{
-  height:90dvh;
+  height:82dvh;
  }
 
 
@@ -206,12 +250,12 @@ z-index: 1;
   }
 
   .firstcontent > h1{
-    font-size:1.6rem;
+    font-size:1.5rem;
    
   }
 
   .firstcontent > p{
-    font-size:1rem;
+    font-size:0.9rem;
   }
   
   .firstcontent > button{
@@ -220,9 +264,7 @@ z-index: 1;
     background-color: #151E3D;
   }  
 
-  .firstimage{
-    background-size: contain;
-  }
+
 
    .cad{
     width: 18rem;
@@ -233,31 +275,37 @@ z-index: 1;
    }
   
   .foreword{
-    font-size:0.6rem;
+    font-size:1.075rem;
     font-weight: lighter;
+    line-height: 1.5;
   
   }
 
 .fore{font-weight:100;
-    padding-top:70px;
-    font-size:25px; } 
+    padding-top:50px;
+    font-size:27px; } 
 
     .mission{
-      min-height: 50vh;
+      min-height: 60vh;
       margin-top: -9rem;
+    }
+
+    .forelarge{
+      display: none;
     }
 
 
      .seebutton{
-      margin-top:50px;
+      margin-top:40px;
+
     }
 
     .pinnockpic{
-      width: 80%;
+      width: 100%;
       margin-top:2rem; 
       justify-content: center;   
       align-items: center;
-      padding-left: 3rem;
+    
     }
     
     .pinline{
@@ -267,7 +315,7 @@ z-index: 1;
     .pinnock{
       width: 100%;
      font-size: 1rem;
-  padding-left: 1rem;
+     padding-left: 0.3rem;
  }
 
     .line1, .line2{
@@ -281,15 +329,10 @@ z-index: 1;
     
     .mycard{
        width:20rem;
-      height:8.5rem;
+      height:8.3rem;
     }
     
-    .feed{
-      margin-top: 1rem;
-      margin-left: 2rem;
-    }
-
-    .card-text{
+     .card-text{
       font-size: 0.8rem;
     }
 
@@ -298,21 +341,32 @@ z-index: 1;
     }
     
     .clients{
-      font-size: 1.5rem;
+      font-size:2rem;
+      margin-bottom: 0;
+      margin-top: 0.7rem;
     }
     
     .people{
-      font-size: 0.6rem;
+      font-size: 0.9rem;
     }
 
     .names1{
-      margin-top: 2.2rem;
+      padding-top: 2rem;
     }
     
      .names2{
-      margin-top: 1rem;
+      padding-top: 1rem;
     }
-    
+
+  .names3{
+    padding-top: 0.8rem;
+  }
+
+   .names4{
+   padding-top: -1rem;
+  } 
+
+
     .touchimage{
       height:200px;
       width:150px;
@@ -337,20 +391,16 @@ z-index: 1;
       font-size:28px;
       font-weight:300;
     }
-
-    .aboutimage{
-      margin: -6rem;
-      clip-path:inset(0rem 5rem 10rem 0rem);
-      
-  }
    
-     .aboutline{
+    .aboutline{
     border:0.2rem solid #151E3D;
-    width:20rem;  
+    width:26rem;  
+    margin-left:10rem ;
   }
 
   .about{
-    margin-left: 0.4rem;
+    margin-left: 10rem;
+   padding-top: 7rem;
   }
 
   .charity1{
@@ -380,7 +430,6 @@ z-index: 1;
 
   .props{
     flex-direction: column;
- 
   }
 
   .pinnockcol{
@@ -388,7 +437,12 @@ z-index: 1;
   }
 
   .property{
-    padding-left: 4rem;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .service{
+    padding-top: 1rem;
   }
   
 .propertytitle{
@@ -411,6 +465,16 @@ z-index: 1;
 
 .myproject1{
   height:30dvh;
+
+}
+
+.media{
+width:2.5rem;
+
+}
+
+.card-body{
+  padding: 0;
 }
 
 
@@ -435,6 +499,10 @@ z-index: 1;
     max-height: 4rem;
   }
 
+  .foresmall{
+    display: none;
+  }
+
   .props{
     flex-direction: column;
   }
@@ -453,7 +521,7 @@ z-index: 1;
 } 
 
 .card-text{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .touchpage{
@@ -559,20 +627,18 @@ transform: scale(1);
       font-size:1.3rem;
     }
     .names1{
-      margin-top: 3.5rem;
+      padding-top: 3.6rem;
     }
     
     .names2{
-      margin-top: 2rem;
+      padding-top: 2rem;
     }
     
     .names3{
-      margin-top: 0.3rem;
+      padding-top: 1.9rem;
     }
     
-    .names4{
-      margin-top: 0.3rem;
-    } 
+   
 
     .pinnockbeach{
       font-size: 3rem;
@@ -690,6 +756,10 @@ transform: scale(1);
     margin-top: 1.5rem;
    }
 
+
+   .forelarge{
+    display: none;
+   }
   
    .firstimage{
     margin: -5.4rem;
@@ -764,9 +834,9 @@ transform: scale(0.6);
 
 
     .pinnockpic{
-      width: 60%;
-      margin-top: 6rem;
-      margin-left: 5rem;
+      width: 90%;
+      margin-top: 1rem;
+       margin-left: 1rem; 
     
     }
     
@@ -775,7 +845,7 @@ transform: scale(0.6);
     }
     
     .pinnock{
-     width:150%;
+     width:100%;
      font-size: 1rem;
      padding-left: 2rem;
      
@@ -906,13 +976,17 @@ transform: scale(0.6);
 @media screen and (min-width:1025px) {
 
    .touchpage{
-    height:130dvh
+    height:140dvh
   } 
 
  .foreword{
   font-size:1.8rem;
   font-weight: lighter;
 } 
+
+.foresmall{
+  display: none;
+}
 
 .mission{
   padding-bottom: 15rem;
@@ -1003,7 +1077,7 @@ transform: scale(0.6);
 
 .feedback{
   margin-top: 1rem;
-padding: 3rem;
+padding: 1rem;
 } 
 
 .clients{
@@ -1123,6 +1197,8 @@ clip-path: inset(12rem 0rem 0rem 0rem);
   .servicetitle{
     color: #151E3D;
   }
+
+
 
    .serviceline{
     border: 0.2rem solid #151E3D;

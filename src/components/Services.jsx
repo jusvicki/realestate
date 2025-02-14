@@ -40,33 +40,34 @@ const Services = () => {
   };
 
   return (
-    <div style={backgroundStyle} className="service">
+    <>
+    <div style={backgroundStyle} className="service servicepage ">
       <div className="myservice" style={{ position: 'absolute', width: '100%' }}>
         <h1
           className="wordservices text-center mb-5"
           style={{
             textShadow: '2px 2px 5px rgba(0, 0, 0, 0.7)',
-            fontSize: '3rem', // Ensures readability
+            fontSize: '3rem', 
           }}
         >
           Services
         </h1>
         <div className=" d-flex flex-wrap props row text-center gap-4 justify-content-center align-items-center">
-          {/* Property Construction Card */}
+         
           <div className=" cad card border-0 col-12 col-md-4 img-fluid" style={image}>
             <Link to="/mainservice#construction" className="property my-5 text-center text-white" >
               Property Construction
             </Link>
           </div>
 
-          {/* Property Management Card */}
+          
           <div className="cad card border-0 col-12 col-md-4 img-fluid"  style={imag} >
             <Link to="/mainservice#management" className="property my-5 text-white">
               Property Management
             </Link>
           </div>
 
-          {/* Property Consultation Card */}
+      
           <div  className="cad card border-0 col-12 col-md-4 img-fluid" style={ima} >
             <Link to="/mainservice#consultation" className="property my-5 text-white" >
               Property Consultation
@@ -75,6 +76,7 @@ const Services = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
